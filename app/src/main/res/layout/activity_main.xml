@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textLayout1"
+        android:layout_width="388dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="449dp"
+        android:background="@drawable/back">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="388dp"
+            android:layout_height="51dp"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="Card Number">
+
+        </EditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textLayout2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="358dp"
+        android:background="@drawable/back">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="189dp"
+            android:layout_height="51dp"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="MM/YY" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textLayout3"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="356dp"
+        android:background="@drawable/back">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="189dp"
+            android:layout_height="51dp"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="SecurityCode" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textLayout4"
+        android:layout_width="160dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="261dp"
+        android:background="@drawable/back">
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="189dp"
+            android:layout_height="51dp"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="First Name" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textLayout5"
+        android:layout_width="160dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="262dp"
+        android:background="@drawable/back">
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="189dp"
+            android:layout_height="51dp"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="Last Name" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="387dp"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="169dp"
+        android:background="@drawable/back1"
+        android:text="Submit Payment"
+        android:textColor="#FBF8F8" />
+</RelativeLayout>
